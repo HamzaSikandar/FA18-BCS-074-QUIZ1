@@ -1,0 +1,84 @@
+body,
+html {
+  height: 100%;
+  margin: 0px;
+}
+.main {
+  background-image: url("Trillium-Restaurant-dining-room-bar.jpg");
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* margin: 0px; */
+  animation-name: pulse;
+  animation-duration: 3s;
+}
+@keyframes pulse {
+  0% {
+    background-image: sandybrown;
+    opacity: 0.2;
+  }
+  100% {
+    background-image: url("Trillium-Restaurant-dining-room-bar.jpg");
+    opacity: 1;
+  }
+}
+.a:hover {
+  background-color: rgb(31, 9, 9);
+  color: rgb(228, 183, 183);
+  text-decoration: none;
+}
+.a {
+  color: rgb(228, 183, 183);
+  padding: 15px 15px;
+  text-decoration: burlywood;
+  font-size: 20px;
+}
+#bt {
+  background-color: rgb(117, 77, 48);
+  position: right;
+}
+h1 {
+  color: rgb(71, 45, 11);
+}
+#Aboutus {
+  height: 25%;
+  overflow: hidden;
+}
+#Aboutus {
+  text-align: center;
+  font-family: cursive;
+}
+#secondimages {
+  display: flex;
+  overflow: hidden;
+  padding: 3%;
+  background-color: rgb(158, 135, 86);
+  height: 90%;
+}
+.otherfood {
+  background-color: rgb(230, 177, 107);
+  width: 100%;
+  height: 30%;
+  padding: 10%;
+  overflow: hidden;
+}
+#contactus {
+  text-align: left;
+  padding: 3px;
+  color: white;
+}
+#lasta {
+  float: left;
+  padding: 0%;
+  color: white;
+}
+#secondimage {
+  float: right;
+  margin-left: 0%;
+}
+footer {
+  background-color: rgb(114, 79, 33);
+  height: 15%;
+}
